@@ -1,0 +1,130 @@
+.my-account-container {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .my-account-container h2 {
+    text-align: center;
+  }
+  
+  .my-account-container p {
+    margin: 10px 0;
+  }
+  
+  .my-account-container .change-password-button,
+  .my-account-container .edit-details-button,
+  .my-account-container .delete-account-button, 
+  .my-account-container .home-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-confirmation {
+    background-color: #fff; 
+    border: 1px solid #ddd;
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    max-width: 400px; 
+    margin: 20px auto; 
+    text-align: center; 
+  }
+  
+  .confirm-delete-button, .cancel-delete-button {
+    padding: 10px 20px;
+    margin: 10px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .confirm-delete-button {
+    background-color: #d9534f; 
+    color: white; 
+  }
+  
+  .confirm-delete-button:hover {
+    background-color: #c9302c; 
+  }
+  
+  .cancel-delete-button {
+    background-color: #f0f0f0; 
+    color: #333; 
+  }
+  
+  .cancel-delete-button:hover {
+    background-color: #e0e0e0; 
+  }
+  
+  .edit-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .edit-form input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .save-changes-button, .cancel-edit-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .save-changes-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .save-changes-button:hover {
+    background-color: #45a049;
+  }
+  
+  .cancel-edit-button {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .cancel-edit-button:hover {
+    background-color: #e0e0e0;
+  }
+
+  .change-password-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .change-password-form input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
